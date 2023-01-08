@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to top left, #ff0edf, #73dcff, #ffa600);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+p{
+    color: black;
+    font-size: 80px;
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+}
+
+#text{
+    width:100%
+}
+.word{
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+}
+
+.line {
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    text-align: center;
+    height: 20vh;
+    width: 50vw;
+    margin-left: 20%;
+
+}
+
