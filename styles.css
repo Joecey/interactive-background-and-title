@@ -26,29 +26,39 @@ p{
     color: black;
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0rem;
+    /* margin: 0rem; */
     text-transform: uppercase;
+    
 }
 
 #text{
-    width:100%
+    width:100%;
+    position: absolute;
+    margin-left: -80px;
+
 }
 .word{
-    display: inline-block;
     vertical-align: middle;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    margin: 5rem;
+    /* margin: 5rem; */
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    
+
 }
 
 .line {
+    position: relative;
     border: 1px solid black;
     justify-content: space-between;
-    padding: 0rem 4rem;
+    padding: 0rem 0rem;
     text-align: center;
-    height: 20vh;
-    width: 50vw;
-    margin-left: 20%;
+    display: flex;
+    height: 10vh;
+    width: 55vw;
+    margin-left: 25%;
 
     overflow:hidden;
 
